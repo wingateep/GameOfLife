@@ -6,5 +6,7 @@ Welcome to John Conway's "Game of Life"! This is a computer science classic from
 
 Each generation, or turn, in the game the following rules are applied:
 
-1. Any dead cell with exactly three neighbours becomes alive
-2. Any live cell with more than 3 or less than 2 neighbours dies, due to overcrowding or loneliness respectively.
+1. Any live cell with fewer than two live neighbours dies.
+2. Any live cell with two or three live neighbours lives on to the next generation.
+3. Any live cell with more than three live neighbours dies.
+4. Any dead cell with exactly three live neighbours becomes a live cell.
