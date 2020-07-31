@@ -149,7 +149,7 @@ class GameViewController: UIViewController {
     
     //Start the timer for animations
     func startTimer() {
-        timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(runGeneration), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: timeInterval, target: self, selector: #selector(runGeneration), userInfo: nil, repeats: true)
     }
     
     //Reseting Timer for animations
@@ -183,7 +183,6 @@ class GameViewController: UIViewController {
     @IBAction func speedChanged(_ sender: UISlider) {
         timeInterval = Double(0.5 - 2.0)
         resetTimer()
-        startTimer()
     }
     
     // 3/3 Custom feature: dark mode switch
