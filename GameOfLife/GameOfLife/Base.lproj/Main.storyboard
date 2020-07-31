@@ -189,14 +189,17 @@
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="conway" translatesAutoresizingMaskIntoConstraints="NO" id="F8U-cH-9qa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="conway" translatesAutoresizingMaskIntoConstraints="NO" id="F8U-cH-9qa">
                                 <rect key="frame" x="14" y="516" width="386" height="277"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.80152863259999996" green="0.75849181409999999" blue="0.89022308589999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="F8U-cH-9qa" firstAttribute="top" secondItem="ouY-FM-5nx" secondAttribute="bottom" constant="23.5" id="BdS-sE-LR9"/>
+                            <constraint firstItem="F8U-cH-9qa" firstAttribute="leading" secondItem="c7x-ee-PQE" secondAttribute="leading" constant="14" id="HBQ-cY-6tQ"/>
+                            <constraint firstItem="c7x-ee-PQE" firstAttribute="trailing" secondItem="F8U-cH-9qa" secondAttribute="trailing" constant="14" id="Jf6-pA-W96"/>
                             <constraint firstItem="bBy-oX-PNJ" firstAttribute="centerX" secondItem="F8U-cH-9qa" secondAttribute="centerX" id="PDK-fo-xw4"/>
+                            <constraint firstItem="c7x-ee-PQE" firstAttribute="bottom" secondItem="F8U-cH-9qa" secondAttribute="bottom" constant="15" id="SN8-Ps-dSm"/>
                             <constraint firstItem="c7x-ee-PQE" firstAttribute="trailing" secondItem="bBy-oX-PNJ" secondAttribute="trailing" constant="26" id="SdO-qu-sR6"/>
                             <constraint firstItem="ouY-FM-5nx" firstAttribute="top" secondItem="bBy-oX-PNJ" secondAttribute="bottom" constant="20" id="UX2-Z8-9Ps"/>
                             <constraint firstItem="LT5-tT-Mln" firstAttribute="top" secondItem="c7x-ee-PQE" secondAttribute="top" constant="27" id="Urg-KH-RXq"/>
@@ -204,6 +207,7 @@
                             <constraint firstItem="c7x-ee-PQE" firstAttribute="trailing" secondItem="ouY-FM-5nx" secondAttribute="trailing" constant="26" id="XzH-Nj-vgG"/>
                             <constraint firstItem="LT5-tT-Mln" firstAttribute="leading" secondItem="c7x-ee-PQE" secondAttribute="leading" constant="23" id="aPn-6O-6Sj"/>
                             <constraint firstItem="bBy-oX-PNJ" firstAttribute="leading" secondItem="ouY-FM-5nx" secondAttribute="leading" id="eOK-H5-4Ns"/>
+                            <constraint firstItem="F8U-cH-9qa" firstAttribute="top" secondItem="ouY-FM-5nx" secondAttribute="bottom" constant="23.5" id="f2M-Pt-AvP"/>
                             <constraint firstItem="ouY-FM-5nx" firstAttribute="top" secondItem="bBy-oX-PNJ" secondAttribute="bottom" constant="20" id="fsC-x0-CV6"/>
                             <constraint firstItem="bBy-oX-PNJ" firstAttribute="trailing" secondItem="ouY-FM-5nx" secondAttribute="trailing" id="hjn-26-GuB"/>
                             <constraint firstItem="bBy-oX-PNJ" firstAttribute="leading" secondItem="c7x-ee-PQE" secondAttribute="leading" constant="26" id="kAd-oh-tWk"/>
