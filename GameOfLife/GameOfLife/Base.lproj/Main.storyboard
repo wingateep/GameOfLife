@@ -47,7 +47,7 @@
                                     <action selector="playButtonPressed:" destination="LmI-mh-3U4" eventType="touchUpInside" id="Vy4-ob-juU"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.5" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="flb-Lo-xMI">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.5" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="flb-Lo-xMI">
                                 <rect key="frame" x="110" y="821" width="198" height="31"/>
                                 <color key="thumbTintColor" red="0.67675065990000005" green="0.61537629370000002" blue="0.83533525470000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
@@ -85,7 +85,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3S8-sY-Rtv" kind="show" destinationCreationSelector="ThemeSelector" id="Ga4-ZY-H8e"/>
+                                    <segue destination="3S8-sY-Rtv" kind="show" id="Ga4-ZY-H8e"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Generation #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMy-52-twY">
@@ -148,10 +148,10 @@
             </objects>
             <point key="canvasLocation" x="134.78260869565219" y="-23.4375"/>
         </scene>
-        <!--Rules View Controller-->
+        <!--View Controller-->
         <scene sceneID="nqy-3c-Lvf">
             <objects>
-                <viewController id="3S8-sY-Rtv" customClass="RulesViewController" customModule="GameOfLife" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3S8-sY-Rtv" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sfy-oy-GFb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

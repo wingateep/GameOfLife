@@ -181,7 +181,7 @@ class GameViewController: UIViewController {
     
     // 2/3 Custom feature: Speed Slider
     @IBAction func speedChanged(_ sender: UISlider) {
-        timeInterval = Double(0.5 - 5.0)
+        timeInterval = Double(0.5 - 2.0)
         resetTimer()
         startTimer()
     }
